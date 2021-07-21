@@ -16,6 +16,16 @@ import router from './router'
 import '@/icons' // icon
 import '@/permission' // permission control
 
+
+import { Message, MessageBox, Loading, Notification } from 'element-ui';
+
+
+MessageBox.confirm('12321', '12321', {
+  iconClass: '',
+  dangerouslyUseHTMLString: false,
+  customClass: '',
+});
+
 /**
  * If you don't want to use mock-server
  * you want to use MockJs for mock api

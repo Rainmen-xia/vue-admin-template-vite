@@ -20,6 +20,10 @@ import '@/permission' // permission control
 import { Message, MessageBox, Loading, Notification } from 'element-ui';
 
 
+import * as monaco from 'monaco-editor/esm/vs/editor/editor.api';
+window.monaco = monaco;
+
+
 MessageBox.confirm('12321', '12321', {
   iconClass: '',
   dangerouslyUseHTMLString: false,

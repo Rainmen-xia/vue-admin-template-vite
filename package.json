@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
+    "op": "vite optimize",
     "build": "vite build",
     "build:prod": "vite build",
     "build:stage": "vite build  --mode staging",
@@ -16,6 +17,7 @@
     "element-ui": "^2.15.1",
     "js-cookie": "^2.2.1",
     "normalize.css": "^8.0.1",
+    "monaco-editor": "0.26.1",
     "nprogress": "^0.2.0",
     "path-to-regexp": "^6.2.0",
     "v-charts": "^1.19.0",
